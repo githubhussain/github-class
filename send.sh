@@ -6,4 +6,11 @@ do
 done 
 
 
+#!/bin/bash
+
+echo `ifconfig`
+echo `date`
+echo `cat /etc/os-release`
+
+
 
