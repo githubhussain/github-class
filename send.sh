@@ -14,3 +14,6 @@ echo `cat /etc/os-release`
 
 
 
+#!/bin/bash
+
+echo `df -h`
