@@ -9,4 +9,15 @@ i am using docker images centos:7
 i am using jenkins 
 
 
+this is java code file 
 
+
+#!/bin/bash
+
+for i in { 1..10 } 
+
+do
+
+echo "hello syed hussain"
+
+done 
