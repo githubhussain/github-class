@@ -1,9 +1,9 @@
-pipeline {
+pipeline(){
   agent any
-  stages {
-    stage('stage 1') {
-      steps {
-        sh 'ifconfig'
+    stages {
+      stage('stage 1') {
+        steps {
+        sh 'mpstat'
       }
     }
 
