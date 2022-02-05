@@ -1,11 +1,10 @@
 pipeline(){
   agent any
-    stages {
-      stage('stage 1') {
-        steps {
-         sh 'uname'
+    stages{
+      stage('stage'){
+        steps{
+          sh 'du -h'
+        }
       }
-    }
-
-  }
+   }
 }
